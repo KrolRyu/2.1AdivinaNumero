@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2._1AdivinaNumero"
         mc:Ignorable="d"
-        Title="Adivina numero" Height="450" Width="800">
+        Title="Adivina numero" Height="246.677" Width="595.183">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="75,121,0,0" TextWrapping="Wrap" Text="¿Qué numero he pensado?" VerticalAlignment="Top"/>
-        <TextBox x:Name="Input" HorizontalAlignment="Left" Height="23" Margin="248,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="Comprobar" Content="Comprobar" HorizontalAlignment="Left" Margin="116,194,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button x:Name="Reiniciar" Content="Reiniciar" HorizontalAlignment="Left" Margin="273,194,0,0" VerticalAlignment="Top" Width="75" Click="Reiniciar_Click"/>
-        <TextBlock x:Name="Resultado" HorizontalAlignment="Left" Margin="427,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="75,67,0,0" TextWrapping="Wrap" Text="¿Qué numero he pensado?" VerticalAlignment="Top"/>
+        <TextBox x:Name="Input" HorizontalAlignment="Left" Height="23" Margin="248,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Comprobar" Content="Comprobar" HorizontalAlignment="Left" Margin="116,140,0,0" VerticalAlignment="Top" Width="75" Click="Comprobar_Click"/>
+        <Button x:Name="Reiniciar" Content="Reiniciar" HorizontalAlignment="Left" Margin="273,140,0,0" VerticalAlignment="Top" Width="75" Click="Reiniciar_Click"/>
+        <TextBlock x:Name="Resultado" HorizontalAlignment="Left" Margin="427,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

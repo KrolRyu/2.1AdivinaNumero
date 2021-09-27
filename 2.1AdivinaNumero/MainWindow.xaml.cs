@@ -28,7 +28,7 @@ namespace _2._1AdivinaNumero
             numero = r.Next(0, 101);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Comprobar_Click(object sender, RoutedEventArgs e)
         {            
             if (int.Parse(Input.Text) == numero)
             {
